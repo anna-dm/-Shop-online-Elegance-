@@ -1,0 +1,60 @@
+/*Header*/
+
+.header__row {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__content {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 670px;
+  height: 380px;
+
+  transform: translateY(-50%);
+}
+
+.header__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display',
+    serif;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 96px;
+  margin-bottom: 10px;
+}
+
+.header__text {
+  margin-bottom: 60px;
+
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.button {
+  display: inline-block;
+  padding: 33px 33px 33px;
+
+  background: #F72464;
+  box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
+  border-radius: 4px;
+  font-family: 'Playfair Display',
+    serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+
+  transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in;
+}
+
+.button:hover {
+  box-shadow: 0px 4px 25px rgba(123, 12, 45, 0.663);
+  background-color: #f7024c;
+}
