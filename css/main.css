@@ -3,7 +3,7 @@
 @import "./block/_header.css";
 @import "./block/_product.css";
 @import "./block/_info.css";
-
+@import "./block/posts.css";
 
 
 /*Featured*/
@@ -32,6 +32,7 @@
 }
 
 .section-header__descr {
+  margin: 0 auto;
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 400;
@@ -40,6 +41,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #999999;
+  max-width: 630px;
 }
 
 
