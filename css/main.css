@@ -4,6 +4,8 @@
 @import "./block/_product.css";
 @import "./block/_info.css";
 @import "./block/posts.css";
+@import "./block/_subscribe-form.css";
+@import "./block/_footer.css";
 
 
 /*Featured*/
@@ -37,13 +39,19 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 19px;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #999999;
   max-width: 630px;
 }
 
+.section-header__descr--uppercase {
+  text-transform: uppercase;
+}
+
+.section-header__descr--uppercase--16px {
+  font-size: 16px;
+}
 
 .section-button-featured {
   text-align: center;

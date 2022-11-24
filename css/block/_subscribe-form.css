@@ -1,0 +1,51 @@
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-form>*+* {
+  margin-left: 10px;
+}
+
+.subscribe-form__input {
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #FFFFFF;
+  border: 1px solid #F72464;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 42px;
+  width: 230px;
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+
+
+
+}
+
+.subscribe-form__input::placeholder {
+  color: #999999;
+}
+
+.subscribe-form__button {
+  display: inline-block;
+  padding: 13px 30px;
+  background: #F72464;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.subscribe-form__button:hover {
+  box-shadow: 0px 4px 15px rgba(123, 12, 45, 0.663);
+  background-color: #f7024c;
+}
